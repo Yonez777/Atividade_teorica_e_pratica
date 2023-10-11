@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Página de contato</title>
+</head>
+<body background="Imagens/wp10432163-arcane-desktop-wallpapers.jpg">
+<font color="white" face="verdana"> 
+
+<h2 align="center">Centro de suporte <font face="cambria" color="gold"><em>CINE<font color="lightgreen">TECH</font> BUZZ</em></font></h2>
+
+<p align="center"><font face="candara" size="3" color="silver">Não se preocupe, não divulgaremos nenhum de seus dados :)</font></p>
+
+<table align="center" bgcolor="3e3636" border="4" cellspacing="">
+    <tr><td>
+            <fieldset>
+                <legend> Por favor, informe seus dados: </legend>
+                <form action="enviar.php" method="post" name="cadastro">
+                    <table border="1" bordercolor="5d5555" cellpadding="3">
+                        <tr>
+                            <td><label> Nome: </label></td>
+                            <td><input type="text" id="nome" name="nome" size="40" maxlength="50" placeholder="Digite o seu nome" required /></td>
+                        </tr>
+                        <tr>
+                            <td><label> Telefone: </label></td>
+                            <td><input type="text" id="telefone" name="telefone" size="40" maxlength="11" placeholder="Digite seu telefone (apenas números)" required/></td>
+                        </tr>
+                        <tr>
+                            <td><label> Email: </label></td>
+                            <td><input type="email" id="email" name="email" size="40" placeholder="Digite o seu email" required /></td>
+                        </tr>
+                        <tr>
+                            <td><label>Selecione o motivo pelo qual você deseja suporte:</label></td>
+                            <td>
+                            <label>
+                            <input type="checkbox" id="pro1" name="pro1" value="Problemas com o site" /> Problemas com o site
+                            </label>
+                            <br>
+                            <label>
+                            <input type="checkbox" id="pro2" name="pro2" value="Notícias com informações equivocadas" /> Notícias com informações equivocadas
+                            </label>
+                            <br>
+                            <label>
+                            <input type="checkbox" id="pro3" name="pro3" value="Sugestão construtiva" /> Sugestão construtiva
+                            </label>
+                            <br>
+                            <label>
+                            <input type="checkbox" id="pro4" name="pro4" value="Páginas indisponíveis" /> Páginas indisponíveis
+                            </label>
+                            <br>
+                            <label>
+                            <input type="checkbox" id="pro5" name="pro5" value="Outro" required/> Outro
+                            </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><label>Descreva resumidamente o motivo do suporte:</label></td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="2"><textarea cols="100" rows="5" id="coment" name="coment" placeholder="Digite aqui" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><label>Gostaria de receber notificações via email sobre as futuras notícias?</label></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><label>
+                            <input type="radio" id="notificacao" name="notificacao" value="Sim" required/> Sim
+                            </label>
+                            <label>
+                            <input type="radio" id="notificacao" name="notificacao" value="Não" /> Não
+                            </td></tr>
+                        </label>
+                        <tr>
+                            <th colspan="2">
+                                <input type="submit" id="enviar" name="enviar" value="ENVIAR DADOS" />
+                                <input type="reset" id="limpar" name="limpar" value="LIMPAR" />
+                            </th>
+                        </tr>
+
+                    </table>
+                </form>
+            </fieldset>
+    </td></tr>
+</table>
+                
+<table align="center" width="600">
+    <tr>
+        <td align="center"><button><a href="inicio.html">Início</a></button></td>
+        <td align="center"><button><a href="index.html">Sobre</a></button></td>
+    </tr>
+</table>
+    
+</font>   
+</body>
+</html>
